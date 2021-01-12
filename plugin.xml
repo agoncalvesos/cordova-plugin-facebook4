@@ -19,6 +19,9 @@
     <preference name="APP_ID" />
     <preference name="APP_NAME" />
 
+
+    <hook type="before_plugin_install" src="scripts/dependencyInstaller.js"/>
+
     <engines>
         <!-- Requires > 3.5.0 because of the custom Framework tag for iOS [CB-6698] -->
         <!-- Requires > 4.0.0 because of the Framework tag for Android that uses gradle -->
